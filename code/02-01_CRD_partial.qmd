@@ -356,7 +356,7 @@ geom_label(data = crd_cld_selected, aes(x=trtname,
                                         label = letter
                                         ))
 
-  #facet_grid() to compartmentalize or group within nrate/krate
+  #facet_grid(.~nrate_kgha) to compartmentalize or group within nrate/krate
 ```
 
 Let's make this plot publication ready.  
